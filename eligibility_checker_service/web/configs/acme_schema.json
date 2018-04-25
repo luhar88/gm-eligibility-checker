@@ -1,0 +1,7 @@
+{
+  "type": "object",
+  "properties": {
+    "employee_id": {"type": "number"}
+  },
+  "required": ["employee_id"]
+}

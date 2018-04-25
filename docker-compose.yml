@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  eligibility_checker_service:
+    restart: always
+    build: ./eligibility_checker_service
+    ports:
+      - "8000:8000"
+    command: /usr/local/bin/gunicorn -w 2 -b 0.0.0.0:8000 web.run:app

@@ -1,0 +1,8 @@
+{
+  "12345": {
+    "module": "acme",
+    "class": "Acme",
+    "company_name": "Acme Inc.",
+    "description": "Verify Acme employees via employee_id based on employee data provided in tsv file"
+  }
+}
